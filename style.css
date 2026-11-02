@@ -639,9 +639,86 @@ ul {
 
 .divider-footer {
   width: 600px;
+  max-width: 100%;
   border-bottom: 1px solid #555;
 }
 
 .footer span {
   color: #f8f4eaab;
+}
+
+/* Keep the complete layout readable on tablets and phones. */
+@media (max-width: 900px) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 1.25em;
+  }
+
+  .header-right ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2.5em;
+    padding: 3em 1.5em;
+  }
+
+  .hero-left,
+  .hero-right {
+    flex: auto;
+    max-width: 100%;
+  }
+
+  .hero-right {
+    justify-content: center;
+  }
+
+  .quote {
+    flex-wrap: wrap;
+    padding: 2em 1.5em;
+  }
+
+  .cta {
+    padding: 1.5em;
+  }
+
+  .cta-banner {
+    flex-wrap: wrap;
+    padding: 1.5em;
+  }
+}
+
+@media (max-width: 540px) {
+  .header-left { gap: 0.5em; }
+  .logo-icon { width: 2em; }
+  .logo-text { font-size: 1.6em; }
+  .hero-title { font-size: 20px; }
+  .hero-features { margin-top: 0; }
+
+  .editor-content { flex-direction: column; }
+  .file-explorer {
+    flex: auto;
+    border-right: 0;
+    border-bottom: 1px solid #555;
+  }
+  .code-area {
+    flex: auto;
+    min-width: 0;
+    border-right: 0;
+    border-bottom: 1px solid #555;
+  }
+  .preview { flex: auto; }
+
+  .info { padding: 2em 1em; }
+  .info-title h2 { font-size: 28px; text-align: center; }
+  .info-card { max-width: 100%; }
+  .quote .main-text { font-size: 24px; }
+  .cta-banner { flex-direction: column; align-items: flex-start; }
+  .footer { text-align: center; }
 }

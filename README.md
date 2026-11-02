@@ -11,6 +11,15 @@ palette, branding, icons, and design ideas.
 The project focuses on building a complete page layout with Flexbox and
 applying foundational CSS concepts.
 
+## Project overview
+
+**Problem:** Turn a supplied layout exercise into a coherent, readable landing page with a distinct visual identity.
+
+**Approach:** Customize the design with a green palette, SVG icons and a code-editor illustration built with HTML and CSS. Flexbox organizes the main sections; responsive rules stack the hero, editor panes and call-to-action on narrow screens.
+
+**Result:** A static landing-page demonstration with a live preview and responsive layouts. Course enrollment, sign-in, testimonials and marketing copy are illustrative content; the page is not an operating education service.
+
+
 ## Preview
 
 ![Application preview](docs/preview.png)
@@ -103,3 +112,6 @@ CC BY 4.0.
 **r0bby97**
 
 - GitHub: [r0bby97](https://github.com/r0bby97)
+## Feedback and contributions
+
+For a bug report, open a repository issue with steps to reproduce, expected and actual behavior, and your browser or device details. Discuss substantial changes in an issue before opening a pull request. Keep changes focused and describe how you checked them.

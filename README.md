@@ -15,7 +15,7 @@ applying foundational CSS concepts.
 
 **Problem:** Turn a supplied layout exercise into a coherent, readable landing page with a distinct visual identity.
 
-**Approach:** Customize the design with a green palette, SVG icons and a code-editor illustration built with HTML and CSS. Flexbox organizes the main sections; responsive rules stack the hero, editor panes and call-to-action on narrow screens.
+**Approach:** Customize the design with a green palette, SVG icons and a code-editor illustration built with HTML and CSS. Flexbox organizes the main sections.
 
 **Result:** A static landing-page demonstration with a live preview and responsive layouts. Course enrollment, sign-in, testimonials and marketing copy are illustrative content; the page is not an operating education service.
 

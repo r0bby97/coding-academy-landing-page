@@ -11,9 +11,13 @@ palette, branding, icons, and design ideas.
 The project focuses on building a complete page layout with Flexbox and
 applying foundational CSS concepts.
 
+## Preview
+
+![Application preview](docs/preview.png)
+
 ## Live Demo
 
-[View the live website](https://r0bby97.github.io/landing-page/)
+[View the live website](https://r0bby97.github.io/coding-academy-landing-page/)
 
 ## Design Reference
 
